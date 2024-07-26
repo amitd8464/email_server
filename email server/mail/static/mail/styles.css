@@ -1,0 +1,151 @@
+textarea {
+    min-height: 400px;
+}
+
+#emails-view
+{
+    display: flex;
+
+    height: 80vh;
+    justify-content: right;
+}
+
+.email-preview
+{
+    display: flex;
+    height: fit-content;
+}
+
+.preview-info
+{
+
+    display: flex;
+    justify-content: space-between;
+    
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 0px;
+
+    width: 60vw;
+    height: fit-content;
+
+}
+
+.unread
+{
+    /*
+    background-color: rgb(209, 230, 248);
+    */
+    background-color: white;
+}
+.read
+{
+    
+    background-color: rgba(186, 200, 213, 0.516);
+    opacity: 0.55;
+    /*
+    background-color: rgb(240, 240, 240);s
+    */
+}
+.preview-info:hover
+{
+    box-shadow: 2px 0px 5px 0px rgba(131, 130, 130, 0.5);
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.timestamp
+{
+    order: 2;
+    font-style: italic;
+    color: darkgray;
+}
+
+.archive
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 5px;
+    height: 45px;
+    width: 45px;
+    align-self: center;
+    justify-self: right;
+    
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+
+}
+
+.email-archive
+{
+    height: 35px;
+    width: fit-content;
+    margin: 0;
+    margin-top: 10px;
+    justify-self: flex-start;
+}
+
+.email-archive-div
+{
+    justify-self: center;
+    align-self: center;
+    order: 1;
+}
+.email-archive-img
+{
+    order: 2;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+
+    justify-self: center;
+    align-self: center;
+}
+
+.email-btn-display
+{
+    display: flex;
+}
+
+.reply-btn
+{
+    height: 35px;
+    width: 70px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-self: flex-start;
+
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+}
+.reply-btn:hover
+{
+    box-shadow: 2px 0px 5px 0px rgba(131, 130, 130, 0.5);
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.reply-btn:active
+{
+    border: none;
+}
+
+.archive:hover
+{
+    box-shadow: 2px 0px 5px 0px rgba(131, 130, 130, 0.5);
+    border: 1px solid rgb(208, 208, 208);
+}
+.archive:active
+{
+    border: none;
+}
+
+.body
+{
+    white-space: pre-wrap;
+}
